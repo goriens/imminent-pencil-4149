@@ -1,4 +1,5 @@
 import React from 'react'
+
 import Integrations from '../Components/Integrations'
 import {Routes, Route} from "react-router-dom"
 export const MainRoutes = () => {
@@ -10,3 +11,13 @@ export const MainRoutes = () => {
     </div>
   );
 }
+
+
+const MainRoutes = () => {
+  return (
+    <div>MainRoutes</div>
+  )
+}
+
+export default MainRoutes
+
